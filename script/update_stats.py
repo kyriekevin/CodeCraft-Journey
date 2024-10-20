@@ -31,9 +31,9 @@ def update_readme(stats):
 
     # LeetCode stats
     leetcode_stats = "- Easy: {}\n- Medium: {}\n- Hard: {}".format(
-        stats["leetcode"]["easy"],
-        stats["leetcode"]["medium"],
-        stats["leetcode"]["hard"],
+        stats["LeetCode"]["Easy"],
+        stats["LeetCode"]["Medium"],
+        stats["LeetCode"]["Hard"],
     )
     content = re.sub(
         r"(<!-- STATS:LEETCODE -->)[\s\S]*?(<!-- STATS:LEETCODE:END -->)",
