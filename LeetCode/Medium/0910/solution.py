@@ -7,7 +7,7 @@ URL: https://leetcode.com/problems/smallest-range-ii/
 Date: 2024-10-21
 Time: 22:02
 
-Author: zyzkyrie
+Author: Kyrie
 
 Algorithm: Greedy
 Time Complexity: O(nlogn)
