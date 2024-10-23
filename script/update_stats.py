@@ -41,6 +41,19 @@ def update_readme(stats):
         content,
     )
 
+    # DeepML stats
+    deepml_stats = "- Easy: {}\n- Medium: {}\n- Hard: {}".format(
+        stats["DeepML"]["Easy"],
+        stats["DeepML"]["Medium"],
+        stats["DeepML"]["Hard"],
+    )
+
+    content = re.sub(
+        r"(<!-- STATS:DEEPML -->)[\s\S]*?(<!-- STATS:DEEPML:END -->)",
+        r"\1\n{}\n\2".format(deepml_stats),
+        content,
+    )
+
     with open("README.md", "w") as file:
         file.write(content)
 
