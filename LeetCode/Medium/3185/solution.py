@@ -1,11 +1,11 @@
 """
 Platform: LeetCode
-Problem: 3184 - Count Pairs That Form a Complete Day
+Problem: 3185 - Count Pairs That Form a Complete Day
 Difficulty: Easy
-URL: https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i
+URL: https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii
 
-Date: 2024-10-22
-Time: 22:14
+Date: 2024-10-23
+Time: 21:24
 
 Author: Kyire
 
@@ -13,8 +13,8 @@ Algorithm: Math
 Time Complexity: O(n + H)
 Space Complexity: O(H)
 
-Runtime: 0 ms
-Memory: 16.4 MB
+Runtime: 155 ms
+Memory: 60.6 MB
 """
 
 
