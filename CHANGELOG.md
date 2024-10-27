@@ -1,3 +1,9 @@
+## v0.1.2 (2024-10-27)
+
+### Merge
+
+- **weekly**: sync 2024 Oct 4th week records (#2)
+
 ## v0.1.1 (2024-10-20)
 
 ### Docs
