@@ -17,7 +17,7 @@ CodeCraft-Journey is a personal project aimed at:
 
 ### Overall Progress
 <!-- STATS:TOTAL_PROBLEMS -->
-- Total problems solved: 11
+- Total problems solved: 12
 <!-- STATS:TOTAL_PROBLEMS:END -->
 
 ### Platform-wise Breakdown
@@ -31,7 +31,7 @@ CodeCraft-Journey is a personal project aimed at:
 
 #### DeepML
 <!-- STATS:DEEPML -->
-- Easy: 4
+- Easy: 5
 - Medium: 0
 - Hard: 0
 <!-- STATS:DEEPML:END -->
