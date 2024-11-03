@@ -17,22 +17,22 @@ CodeCraft-Journey is a personal project aimed at:
 
 ### Overall Progress
 <!-- STATS:TOTAL_PROBLEMS -->
-- Total problems solved: 12
+- Total problems solved: 16
 <!-- STATS:TOTAL_PROBLEMS:END -->
 
 ### Platform-wise Breakdown
 
 #### LeetCode
 <!-- STATS:LEETCODE -->
-- Easy: 2
-- Medium: 5
+- Easy: 4
+- Medium: 6
 - Hard: 0
 <!-- STATS:LEETCODE:END -->
 
 #### DeepML
 <!-- STATS:DEEPML -->
 - Easy: 5
-- Medium: 0
+- Medium: 1
 - Hard: 0
 <!-- STATS:DEEPML:END -->
 
