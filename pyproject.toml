@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "codecraft-journey"
-version = "0.1.2"
+version = "0.2.0"
 description = "A coder's travelogue: Solving puzzles, one algorithm at a time."
 authors = ["zyz <zyzkyrie@outlook.com>"]
 license = "Apache-2.0"
