@@ -1,3 +1,9 @@
+## v1.0.0 (2025-01-05)
+
+### Merge
+
+- **weekly**: sync 2025 Jan 1st week records (#5)
+
 ## v0.3.0 (2024-12-01)
 
 ### Merge
