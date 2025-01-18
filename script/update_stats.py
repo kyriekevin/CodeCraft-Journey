@@ -54,6 +54,19 @@ def update_readme(stats):
         content,
     )
 
+    # AcWing stats
+    acwing_stats = "- Easy: {}\n- Medium: {}\n- Hard: {}".format(
+        stats["DeepML"]["Easy"],
+        stats["DeepML"]["Medium"],
+        stats["DeepML"]["Hard"],
+    )
+
+    content = re.sub(
+        r"(<!-- STATS:ACWING -->)[\s\S]*?(<!-- STATS:ACWING:END -->)",
+        r"\1\n{}\n\2".format(acwing_stats),
+        content,
+    )
+
     with open("README.md", "w") as file:
         file.write(content)
 
