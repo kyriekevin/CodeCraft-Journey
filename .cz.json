@@ -10,11 +10,11 @@
       "message_template": "{{change_type}}{% if scope %}({{scope}}){% endif %}: {{message}}{% if body %}\n\n{{body}}{% endif %}{% if footer %}\n\n{{footer}}{% endif %}",
       "example": "docs(repo): add contributing guidelines",
       "schema": "<type>(<scope>): <subject>\n\n<body>\n\n<footer>",
-      "schema_pattern": "^(solve|update|docs|chore|refactor|style|test|merge)(?:\\(([^()\\r\\n]+)\\))?:\\s(.+)(?:\\n\\n(.+))?(?:\\n\\n(.+))?$",
+      "schema_pattern": "^(solve|update|docs|chore|refactor|style|test|merge|fix)(?:\\(([^()\\r\\n]+)\\))?:\\s(.+)(?:\\n\\n(.+))?(?:\\n\\n(.+))?$",
       "info_path": "cz_customize_info.txt",
       "info": "This is customized info",
-      "commit_parser": "^(?P<change_type>solve|update|docs|docs|chore|refactor|style|test|merge)(?:\\((?P<scope>[^()\\r\\n]+)\\))?:\\s(?P<message>.+)(?:\\n\\n(?P<body>.+))?(?:\\n\\n(?P<footer>.+))?$",
-      "changelog_pattern": "^(merge|solve|docs)(?:\\(([^()\\r\\n]+)\\))?:\\s(.+)",
+      "commit_parser": "^(?P<change_type>solve|update|docs|docs|chore|refactor|style|test|merge|fix)(?:\\((?P<scope>[^()\\r\\n]+)\\))?:\\s(?P<message>.+)(?:\\n\\n(?P<body>.+))?(?:\\n\\n(?P<footer>.+))?$",
+      "changelog_pattern": "^(merge|solve|update|docs|fix)(?:\\(([^()\\r\\n]+)\\))?:\\s(.+)",
       "change_type_map": {
         "merge": "Merge",
         "solve": "Solve",
@@ -56,6 +56,10 @@
             {
               "value": "chore",
               "name": "chore: Changes to the build process or auxiliary tools"
+            },
+            {
+              "value": "fix",
+              "name": "fix: A bug fix"
             }
           ],
           "message": "Select the type of change you are committing"

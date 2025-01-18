@@ -56,9 +56,9 @@ def update_readme(stats):
 
     # AcWing stats
     acwing_stats = "- Easy: {}\n- Medium: {}\n- Hard: {}".format(
-        stats["DeepML"]["Easy"],
-        stats["DeepML"]["Medium"],
-        stats["DeepML"]["Hard"],
+        stats["AcWing"]["Easy"],
+        stats["AcWing"]["Medium"],
+        stats["AcWing"]["Hard"],
     )
 
     content = re.sub(

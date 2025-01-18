@@ -37,6 +37,13 @@ CodeCraft-Journey is a personal project aimed at:
 <!-- STATS:DEEPML:END -->
 
 
+#### AcWing
+<!-- STATS:ACWING -->
+- Easy: 1
+- Medium: 1
+- Hard: 0
+<!-- STATS:ACWING:END -->
+
 ## 🛠 Tools and Technologies
 
 - Languages: Python, C++

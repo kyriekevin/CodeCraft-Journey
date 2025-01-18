@@ -1,3 +1,15 @@
+/*
+Platform: AcWing
+Problem: 6096 - 参加比赛2
+Difficulty: Medium
+URL: https://www.acwing.com/problem/content/6096/
+
+Date: 2025-01-18
+Time: 23:05
+
+Author: Kyire
+*/
+
 #include <iostream>
 using namespace std;
 
