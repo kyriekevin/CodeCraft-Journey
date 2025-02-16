@@ -1,3 +1,9 @@
+## (2025-02-16)
+
+### Merge
+
+- **weekly**: sync 2025 Feb 3rd week records (#8)
+
 ## (2025-02-09)
 
 ### Chore
