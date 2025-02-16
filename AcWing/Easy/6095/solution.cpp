@@ -1,6 +1,6 @@
 /*
 Platform: AcWing
-Problem: 6098 - 参加比赛
+Problem: 6095 - 参加比赛
 Difficulty: Easy
 URL: https://www.acwing.com/problem/content/6098/
 
