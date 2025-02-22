@@ -17,14 +17,14 @@ CodeCraft-Journey is a personal project aimed at:
 
 ### Overall Progress
 <!-- STATS:TOTAL_PROBLEMS -->
-- Total problems solved: 33
+- Total problems solved: 34
 <!-- STATS:TOTAL_PROBLEMS:END -->
 
 ### Platform-wise Breakdown
 
 #### LeetCode
 <!-- STATS:LEETCODE -->
-- Easy: 8
+- Easy: 9
 - Medium: 10
 - Hard: 1
 <!-- STATS:LEETCODE:END -->
