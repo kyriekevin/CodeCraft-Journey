@@ -5,7 +5,7 @@ Difficulty: Easy
 URL: https://www.acwing.com/problem/content/6125/
 
 Date: 2025-03-08
-Time: 23:05
+Time: 11:05
 
 Author: Kyire
 */

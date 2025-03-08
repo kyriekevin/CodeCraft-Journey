@@ -8,11 +8,14 @@ def count_problems(directory):
     for root, _, files in os.walk(directory):
         if "solution" in "".join(files):
             parts = root.split(os.sep)
-            if len(parts) >= 3:
+            if len(parts) >= 2:
                 platform = parts[1]
-                category = parts[2]
-                count[platform][category] += 1
-                count[platform]["total"] += 1
+                if platform == "Codeforces":
+                    count[platform]["total"] += 1
+                elif len(parts) >= 3:
+                    category = parts[2]
+                    count[platform][category] += 1
+                    count[platform]["total"] += 1
 
     return count
 
@@ -64,6 +67,13 @@ def update_readme(stats):
     content = re.sub(
         r"(<!-- STATS:ACWING -->)[\s\S]*?(<!-- STATS:ACWING:END -->)",
         r"\1\n{}\n\2".format(acwing_stats),
+        content,
+    )
+
+    codeforces_stats = "- Total problems: {}".format(stats["Codeforces"]["total"])
+    content = re.sub(
+        r"(<!-- STATS:CODEFORCES -->)[\s\S]*?(<!-- STATS:CODEFORCES:END -->)",
+        r"\1\n{}\n\2".format(codeforces_stats),
         content,
     )
 
