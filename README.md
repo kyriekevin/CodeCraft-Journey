@@ -17,15 +17,15 @@ CodeCraft-Journey is a personal project aimed at:
 
 ### Overall Progress
 <!-- STATS:TOTAL_PROBLEMS -->
-- Total problems solved: 33
+- Total problems solved: 38
 <!-- STATS:TOTAL_PROBLEMS:END -->
 
 ### Platform-wise Breakdown
 
 #### LeetCode
 <!-- STATS:LEETCODE -->
-- Easy: 8
-- Medium: 10
+- Easy: 9
+- Medium: 11
 - Hard: 1
 <!-- STATS:LEETCODE:END -->
 
@@ -36,13 +36,17 @@ CodeCraft-Journey is a personal project aimed at:
 - Hard: 0
 <!-- STATS:DEEPML:END -->
 
-
 #### AcWing
 <!-- STATS:ACWING -->
-- Easy: 2
+- Easy: 3
 - Medium: 2
 - Hard: 1
 <!-- STATS:ACWING:END -->
+
+#### Codeforces
+<!-- STATS:CODEFORCES -->
+- Total problems: 2
+<!-- STATS:CODEFORCES:END -->
 
 ## 🛠 Tools and Technologies
 
