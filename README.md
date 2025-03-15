@@ -17,7 +17,7 @@ CodeCraft-Journey is a personal project aimed at:
 
 ### Overall Progress
 <!-- STATS:TOTAL_PROBLEMS -->
-- Total problems solved: 39
+- Total problems solved: 40
 <!-- STATS:TOTAL_PROBLEMS:END -->
 
 ### Platform-wise Breakdown
@@ -45,7 +45,7 @@ CodeCraft-Journey is a personal project aimed at:
 
 #### Codeforces
 <!-- STATS:CODEFORCES -->
-- Total problems: 2
+- Total problems: 3
 <!-- STATS:CODEFORCES:END -->
 
 ## 🛠 Tools and Technologies
