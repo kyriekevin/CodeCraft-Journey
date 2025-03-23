@@ -10,7 +10,7 @@ def count_problems(directory):
             parts = root.split(os.sep)
             if len(parts) >= 2:
                 platform = parts[1]
-                if platform == "Codeforces":
+                if platform == "Codeforces" or platform == "Luogu":
                     count[platform]["total"] += 1
                 elif len(parts) >= 3:
                     category = parts[2]
@@ -74,6 +74,13 @@ def update_readme(stats):
     content = re.sub(
         r"(<!-- STATS:CODEFORCES -->)[\s\S]*?(<!-- STATS:CODEFORCES:END -->)",
         r"\1\n{}\n\2".format(codeforces_stats),
+        content,
+    )
+
+    luogu_stats = "- Total problems: {}".format(stats["Luogu"]["total"])
+    content = re.sub(
+        r"(<!-- STATS:LUOGU -->)[\s\S]*?(<!-- STATS:LUOGU:END -->)",
+        r"\1\n{}\n\2".format(luogu_stats),
         content,
     )
 
