@@ -1,16 +1,9 @@
-[tool.poetry]
+[project]
 name = "codecraft-journey"
 version = "0.1.0"
 description = "A coder's travelogue: Solving puzzles, one algorithm at a time."
-authors = ["zyz <zyzkyrie@outlook.com>"]
-license = "Apache-2.0"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-numpy = "^2.1.2"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=2.0.2",
+]
