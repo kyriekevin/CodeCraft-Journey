@@ -61,10 +61,6 @@ CodeCraft-Journey is a personal project aimed at:
 - Changelog Generation: Commitizen (cz-bump)
 - Custom Scripts: Python for statistics generation
 
-## 📈 Changelog
-
-For detailed changes for each version, please see the [CHANGELOG](./CHANGELOG.md).
-
 ## 🤝 Contributing
 
 While this is a personal journey, I welcome discussions, suggestions, and insights! Feel free to open an issue or submit a pull request if you have any ideas or spot any mistakes.
