@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [tool.ruff]
-extend-exclude = ["LeetCode"]
+extend-exclude = ["AcWing", "LeetCode"]
