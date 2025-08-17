@@ -19,7 +19,7 @@ CodeCraft-Journey is a personal project aimed at:
 ### Overall Progress
 
 <!-- STATS:TOTAL_PROBLEMS -->
-- Total problems solved: 71
+- Total problems solved: 72
 <!-- STATS:TOTAL_PROBLEMS:END -->
 
 ### Platform-wise Breakdown
@@ -28,7 +28,7 @@ CodeCraft-Journey is a personal project aimed at:
 
 <!-- STATS:LEETCODE -->
 - Easy: 15
-- Medium: 21
+- Medium: 22
 - Hard: 1
 <!-- STATS:LEETCODE:END -->
 
